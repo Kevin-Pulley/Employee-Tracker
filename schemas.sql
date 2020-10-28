@@ -35,13 +35,13 @@ INSERT INTO department (name) VALUES
 ("Legal");
 
 INSERT INTO role (title, salary, department_id) VALUES
-("Lead Engineer", 150000, 2),
+("Lead Engineer", 160000, 2),
 ("Legal Team Lead", 250000, 4),
-("Accountant", 125000, 3),
+("Accountant", 120000, 3),
 ("Sales Lead", 100000, 1),
-("Salesperson", 80000, 1),
-("Software Engineer", 120000, 2),
-("Lawyer", 190000, 4);
+("Salesperson", 85000, 1),
+("Software Engineer", 125000, 2),
+("Lawyer", 170000, 4);
 
 INSERT INTO employee (first_name, last_name, manager_id, role_id ) VALUES
 ("Kevin", "Pulley",null,1),
